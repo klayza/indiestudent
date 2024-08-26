@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": "Philosophy",
+    "audience": "Beginners to intermediate learners interested in a comprehensive introduction to philosophy",
+    "purpose": "To provide a structured approach to learning philosophy, covering major areas and developing critical thinking skills"
+  },
+  "nodes": [
+    {
+      "id": "1",
+      "type": "chapter",
+      "title": "Introduction to Philosophy",
+      "objective": "Gain a broad overview of philosophical inquiry and its main branches.",
+      "nodes": [
+        {
+          "id": "1.1",
+          "type": "book",
+          "title": "Read 'What Does It All Mean?' by Thomas Nagel",
+          "objective": "Understand the fundamental questions of philosophy.",
+          "description": "This short introduction covers major philosophical problems in an accessible way.",
+          "data": {
+            "isbn": "9780195052169"
+          }
+        },
+        {
+          "id": "1.2",
+          "type": "reflect",
+          "title": "Reflect on Philosophical Questions",
+          "description": "What philosophical questions intrigued you the most?\nHow do these questions relate to your everyday life?\nWhich branch of philosophy are you most interested in exploring further?"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "chapter",
+      "title": "Logic and Critical Thinking",
+      "objective": "Develop skills in logical reasoning and argument analysis.",
+      "nodes": [
+        {
+          "id": "2.1",
+          "type": "book",
+          "title": "Study 'Introduction to Logic' by Irving M. Copi",
+          "objective": "Learn the fundamentals of formal and informal logic.",
+          "description": "Focus on Chapters 1-7 for a solid foundation in logical reasoning.",
+          "data": {
+            "isbn": "9780205820375"
+          }
+        },
+        {
+          "id": "2.2",
+          "type": "practice",
+          "title": "Practice Logical Reasoning",
+          "description": "Complete exercises from the book and online resources like Stanford Encyclopedia of Philosophy's Logic section."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "chapter",
+      "title": "Ancient Philosophy",
+      "objective": "Explore the foundations of Western philosophy.",
+      "nodes": [
+        {
+          "id": "3.1",
+          "type": "book",
+          "title": "Read 'A History of Western Philosophy' by Bertrand Russell",
+          "objective": "Gain an overview of ancient Greek philosophy.",
+          "description": "Focus on the sections about Socrates, Plato, and Aristotle.",
+          "data": {
+            "isbn": "9780671201586"
+          }
+        },
+        {
+          "id": "3.2",
+          "type": "primary_source",
+          "title": "Read Plato's 'Republic'",
+          "objective": "Engage with a classic philosophical text.",
+          "description": "Pay special attention to the Allegory of the Cave and discussions on justice."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "chapter",
+      "title": "Modern Philosophy",
+      "objective": "Understand key developments in philosophy from the Renaissance to the 19th century.",
+      "nodes": [
+        {
+          "id": "4.1",
+          "type": "book",
+          "title": "Study 'Modern Philosophy: An Anthology of Primary Sources' edited by Roger Ariew and Eric Watkins",
+          "objective": "Engage with primary texts from major modern philosophers.",
+          "description": "Focus on works by Descartes, Hume, and Kant.",
+          "data": {
+            "isbn": "9780872209787"
+          }
+        },
+        {
+          "id": "4.2",
+          "type": "essay",
+          "title": "Write a Comparative Essay",
+          "description": "Compare and contrast the epistemological views of Descartes and Hume."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "chapter",
+      "title": "Ethics and Moral Philosophy",
+      "objective": "Explore major ethical theories and their applications.",
+      "nodes": [
+        {
+          "id": "5.1",
+          "type": "book",
+          "title": "Read 'The Elements of Moral Philosophy' by James Rachels",
+          "objective": "Understand various approaches to ethics.",
+          "description": "Pay special attention to utilitarianism, deontology, and virtue ethics.",
+          "data": {
+            "isbn": "9780078119064"
+          }
+        },
+        {
+          "id": "5.2",
+          "type": "case_study",
+          "title": "Analyze Ethical Dilemmas",
+          "description": "Apply different ethical frameworks to real-world scenarios."
+        }
+      ]
+    }
+  ]
+}

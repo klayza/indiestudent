@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Indie Student</title>
+  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <base href="/static/"> <!-- Set the base URL for all static files -->
+  <script src="tailwind.js"></script>
+  <script src="jquery-3.7.1.min.js"></script>
+  <script src="jcore.js"></script>
+  <body>
+    <h1 class="text-2xl">Indie Student</h1>
+    <hr>
+    <p class="text-center py-12">Welcome, there are currently <span id="student-count">0</span> students in our community.</p>
+    <h2 class="text-xl">Students</h2>
+    <ul id="student-list" class="flex-col">
+    </ul>
+  </body>
+  <style>
+    * {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    html {
+      padding: 10px;
+    }
+
+  </style>
+</html>

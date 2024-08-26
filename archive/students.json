@@ -1,0 +1,16 @@
+[
+  {
+    "id": "clayza",
+    "first": "Clayton",
+    "last": "Wieberg",
+    "email": "clayjay9870@gmail.com",
+    "studying": ["physics", "philosophy"]
+  },
+  {
+    "id": "poizenfreek",
+    "first": "Taylor",
+    "last": "Allen",
+    "email": "johndoe@example.com",
+    "studying": ["drawing", "cars"]
+  }
+]

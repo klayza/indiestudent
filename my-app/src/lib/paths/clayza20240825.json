@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "title": "Physics"
+  },
+  "nodes": [
+    {
+      "id": "1",
+      "type": "chapter",
+      "title": "Introduction",
+      "objective": "Gain a general idea of physics.",
+      "nodes": [
+        {
+          "id": "1.1",
+          "type": "book",
+          "title": "Read a book",
+          "objective": "Find something you like about physics.",
+          "description": "Fun books like this show us the potential of what phyiscs can do. They're good to read every now and then.",
+          "data": {
+            "isbn": "9780765386694"
+          }
+        },
+        {
+          "id": "1.2",
+          "type": "reflect",
+          "title": "Reflect",
+          "description": "What did you think of the book?\nWhat was your favorite part?\nWhy did Yang Dong press the button?"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "chapter",
+      "title": "Introduction to Mechanics",
+      "objective": "Learn about the motions and behavior of energy.",
+      "nodes": [
+      ]
+    }
+  ]
+}
