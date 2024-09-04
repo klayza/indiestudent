@@ -25,6 +25,8 @@
 
 <style>
 	header {
+		z-index: 2; 
+		position: relative;
 		width: 100%;
 		display: flex;
 		background-color: white;

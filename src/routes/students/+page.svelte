@@ -16,6 +16,6 @@
 
 <ul>
 	{#each data.students as student}
-		<li><a href="/students/{student.id}">{student.first + ' ' + student.last}</a><span class="ml-2">studies ({student.studies.join(", ")})</span></li>
+		<li><a href="/{student.id}">{student.first + ' ' + student.last}</a><span class="ml-2">studies ({student.studies.join(", ")})</span></li>
 	{/each}
 </ul>

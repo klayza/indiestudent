@@ -8,9 +8,12 @@ function getUser(id) {
 }
 
 export async function load({ params }) {
+    const { user: userid } = params;
     let paths = [];
-    let user = getUser(params.slug);
+    let user = getUser(userid);
+
     user = user ? user[0] : undefined;
+
 
     if (user) {
         for (const pId of user.paths) {
@@ -19,10 +22,13 @@ export async function load({ params }) {
                 paths.push(path);
             }
         }
+        return {
+            user,
+            paths
+        };
     }
-
     return {
-        user,
-        paths
+        status: 404,
+        error: 'User or project not found'
     };
 }
